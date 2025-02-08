@@ -10,6 +10,9 @@ html,body{
     height: 100%;
     width: 100%;
 }
+body{
+    overflow-x: hidden;
+}
 #crsr{
     width: 2vw;
     height: 2vw;
@@ -165,7 +168,6 @@ html,body{
 .hero h2{
     font-size:7.2vw;
     font-weight:600;
-   
     line-height: 7.2vw;
     border-bottom: 0.5 white;
     padding-bottom: 0.8vw;
@@ -176,3 +178,134 @@ html,body{
     color: transparent;
     font-weight: 500;
 }
+#page2{
+    height: 100vh;
+    width:100%;
+    padding-top: 17vh;
+    position: relative;
+
+}
+#vdo{
+    height: 66vh;
+    width: 70%;
+    left: 30%;
+    background-color: red;
+    position: relative;
+    background-image: url(https://obys.agency/wp-content/uploads/2022/11/Showreel-2022-preview-1.jpg)
+  
+
+}
+#vdo img{
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    object-fit:cover;
+    
+}
+#vdo video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#vdcrsr{
+    background-color: #FFA63D;
+    height:8vw;
+    width:8vw;
+    border-radius: 50%;
+    position: absolute;
+    top: -10;
+    left: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+#page3{
+    min-height: 100vh;
+    width: 100%;
+
+}
+#page4 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-top: 7 vh;
+}
+#page4-content{
+    width:72vw ;
+    position: relative;
+    margin-left: 28%;
+}
+#page4-content h1{
+    font-size:7vw ;
+    text-transform: uppercase;
+}
+#page4-content .underline
+{
+    width: 100%;
+    height: 1.5px;
+    background-color: white;
+    margin: 5vw 0;
+}
+#page4-content>p
+{
+    font-size: 2.05vw;
+    width: 50%;
+    margin-bottom: 5vw;
+}
+#page4-flex{
+    display: flex;
+}
+
+#page4-flex img{
+    width: 48%;
+}
+#page4-flex p
+{
+    font-size: 0.8vw;
+    width: 20%;
+    margin-left: 1vw;
+}
+
+#page4-blue-div{
+    width:33vw;
+    padding: 3vw;
+    position: relative;
+    margin-top:-30vh;
+    margin-left:25vw;
+    background-color: #3F7DF4;
+   
+
+}  
+.blue-div-elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.7vw;
+    border-bottom: 1px solid white;
+}
+.blue-div-elem h4{
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+.blue-div-elem p{
+    width: 40%;
+    font-size: 0.7vw;
+}
+#page4-content underline{
+    width: 100%;
+    height: 1.5px;
+    background-color: white;
+    margin: 5vw 0;
+}
+#page5{
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+
+
+
+
+
